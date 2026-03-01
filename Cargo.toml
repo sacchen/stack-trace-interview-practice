@@ -2,5 +2,18 @@
 name = "trace_interview"
 version = "0.1.0"
 edition = "2024"
+default-run = "trace_interview"
+
+[[bin]]
+name = "trace_interview"
+path = "src/main.rs"
+
+[[bin]]
+name = "part2_call_tree"
+path = "src/part2_call_tree.rs"
+
+[[bin]]
+name = "part3_stats"
+path = "src/part3_stats.rs"
 
 [dependencies]
