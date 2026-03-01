@@ -1,0 +1,12 @@
+# Rust
+/target/
+
+# C++ local build outputs
+/app
+/app.dSYM/
+/build/
+
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
